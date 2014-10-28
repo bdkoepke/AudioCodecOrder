@@ -61,7 +61,6 @@ android {
     }
 }
 
-/*
 if (project.ext.loadSign) {
     Properties keystore = new Properties()
     keystore.load(new FileInputStream(rootProject.file('keystore.properties')))
@@ -70,4 +69,3 @@ if (project.ext.loadSign) {
     android.signingConfigs.release.keyAlias keystore.keyAlias
     android.signingConfigs.release.keyPassword keystore.keyPassword
 }
-*/

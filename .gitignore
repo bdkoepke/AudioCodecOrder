@@ -35,4 +35,5 @@ proguard/
 
 # Ignore keystores
 *.keystore
+*.jks
 keystore.properties
