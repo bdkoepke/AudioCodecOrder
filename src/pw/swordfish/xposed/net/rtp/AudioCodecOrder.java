@@ -17,10 +17,8 @@ public class AudioCodecOrder implements IXposedHookZygoteInit {
         XposedBridge.log(LOGTAG +
                 " " +
                 (Arrays.equals(AudioCodecProxy.getCodecs(), codecs) ?
-                        "Sucessfully" :
+                        "Successfully" :
                         "Failed to") +
                 " updated codec order");
     }
-
-
 }
